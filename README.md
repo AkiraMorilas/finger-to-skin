@@ -1,5 +1,5 @@
 # finger-to-skin
-Takes skin elements, and arranges them per-finger in an osumania skin from 1K to 18K
+Takes skin elements, and arranges them per-finger in an osumania skin from 4K to 18K
 
 TODO:
 - soundsphere support
