@@ -15,5 +15,6 @@ Also keep in mind that barlines cannot be hidden in lazer *by design*(see https:
 I want to eventually just generate the whole skin.ini
 - figure out JudgementLine, NoteBodyStyle and all the non-mania specific stuff
 - key images
-- soundsphere support(might make it a separate script)
 - togglable advanced mode where you choose every image(right now same image is used for note, LN head, LN body and LN tail)
+
+I also want to do this with soundsphere(https://github.com/semyon422/soundsphere) skins but I might make that a separate script.
