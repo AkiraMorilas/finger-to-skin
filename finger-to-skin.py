@@ -10,10 +10,13 @@ index = input("input your index note: ")
 middle = input("input your middle note: ")
 ring = input("input your ring note: ")
 pinky = input("input your pinky note: ")
-width = input("how wide are the notes supposed to be: ")
+size = int(input("how wide are the notes supposed to be: "))
+height = int(input("how many pixels tall is your screen: "))
+width = int(input("how many pixels wide is your screen: "))
 hitpos = input("what is your hit position: ")
 scorepos = input("what is your score position: ")
 combopos = input("what is your combo position: ")
+barline = input("how thick do you want your barline(0 removes it on stable): ")
 
 k1 = [thumb]
 k2 = [index,index]
@@ -37,19 +40,27 @@ def zeroes(n):
         r += "0, "
     return r
 
+def columns(n,w):
+    r = ""
+    for i in n:
+        r += str(w) + ", "
+    return r
+
+def center(h,w,s,k):
+    #((480 / (screen height / screen width)) / 2) - ((note size * keycount) / 2)
+    return str(int(((480 / (h / w)) / 2) - ((s * k) / 2)))
+
+print("")
+
 for i in keycounts:
     print("[Mania]")
     print("Keys: " + str(len(i)))
-    print("")
-    print("TODO: other things for generating the whole skin.ini")
-    print("")
-    #CollumnStart: <- need to know the centering algorithm
-    #ColumnWidth: <- need to know the centering algorithm
+    print("CollumnStart: " + center(height, width, size, len(i)))
+    print("ColumnWidth: " + columns(i, size))
     print("ColumnLineWidth: " + zeroes(i))
     print("SplitStages: 0")
     print("HitPosition: " + str(hitpos))
-    #LightPosition: <- do I need this even?
-    #BarlineHeight: <- TODO figure this out
+    print("BarlineHeight: " + str(barline))
     #JudgementLine: <- TODO figure this out
     #NoteBodyStyle: <- TODO figure this out
     print("ScorePosition: " + str(scorepos))
