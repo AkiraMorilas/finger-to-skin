@@ -1,5 +1,5 @@
 # finger-to-skin
-Takes skin elements, and arranges them per-finger, and generates an osumania skin.
+Takes skin elements, arranges them per-finger, and generates an osumania skin.
 The supported keycounts are all sensible **keyboard** keycounts, so
 - 1K to 10K
 - 13K in 3K7K3K arrangement(which cannot have keybinds changed, but can actually be mapped with notepad editing)
