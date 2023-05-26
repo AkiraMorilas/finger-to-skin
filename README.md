@@ -8,10 +8,12 @@ The supported keycounts are all sensible **keyboard** keycounts, so
 
 This script doesn't generate anything for controller-oriented keycounts like 12K(10K2S), mainly because I don't play controller games like BMS anymore, but also because scratching support is buggy in stable and non-existent in lazer(which I use).
 
+This script **should** be centering the stage correctly, but I'm not sure because lazer mania is a buggy mess and I can't get stable to work in Wine.
+Also keep in mind that barlines cannot be hidden in lazer *by design*(see https://github.com/ppy/osu/issues/19611)
+
 # TODO:
-- center playfield(depends on me finding a mania skinning guide that HASN'T been replaced years ago by a link to the skinship website that has ZERO information about mania skinning)
-- figure out LightPosition, BarlineHeight, JudgementLine and NoteBodyStyle
+I want to eventually just generate the whole skin.ini
+- figure out JudgementLine, NoteBodyStyle and all the non-mania specific stuff
 - key images
-- soundsphere support
+- soundsphere support(might make it a separate script)
 - togglable advanced mode where you choose every image(right now same image is used for note, LN head, LN body and LN tail)
-- eventually just generating the whole skin.ini
