@@ -17,6 +17,8 @@ hitpos = input("what is your hit position: ")
 scorepos = input("what is your score position: ")
 combopos = input("what is your combo position: ")
 barline = input("how thick do you want your barline(0 removes it on stable): ")
+judgeline = input("how thick do you want your judgement line: ")
+lnstyle = input("do you want LNs to be stretched to fit(0), repeat from top(1) or bottom(2): ")
 
 k1 = [thumb]
 k2 = [index,index]
@@ -61,16 +63,18 @@ for i in keycounts:
     print("SplitStages: 0")
     print("HitPosition: " + str(hitpos))
     print("BarlineHeight: " + str(barline))
-    #JudgementLine: <- TODO figure this out
-    #NoteBodyStyle: <- TODO figure this out
+    print("JudgementLine: " + str(judgeline))
+    print("NoteBodyStyle: " + str(lnstyle))
     print("ScorePosition: " + str(scorepos))
     print("ComboPosition: " + str(combopos))
     count = 0
+    print("///Images")
     for j in i:
         print("NoteImage" + str(count) + ": " + str(j))
         print("NoteImage" + str(count) + "H: " + str(j))
         print("NoteImage" + str(count) + "L: " + str(j))
         print("NoteImage" + str(count) + "T: " + str(j))
+        print("")
         count+=1
     print("")
 
