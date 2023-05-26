@@ -1,5 +1,5 @@
 # finger-to-skin
-Takes skin elements, and arranges them per-finger in an osumania skin.
+Takes skin elements, and arranges them per-finger, and generates an osumania skin.
 The supported keycounts are all sensible **keyboard** keycounts, so
 - 1K to 10K
 - 13K in 3K7K3K arrangement(which cannot have keybinds changed, but can actually be mapped with notepad editing)
@@ -10,6 +10,8 @@ This script doesn't generate anything for controller-oriented keycounts like 12K
 
 # TODO:
 - center playfield(depends on me finding a mania skinning guide that HASN'T been replaced years ago by a link to the skinship circlejerk website that has ZERO information about mania skinning)
+- figure out LightPosition, BarlineHeight, JudgementLine and NoteBodyStyle
+- key images
 - soundsphere support
 - togglable advanced mode where you choose every image(right now same image is used for note, LN head, LN body and LN tail)
 - eventually just generating the whole skin.ini
