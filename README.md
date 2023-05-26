@@ -1,6 +1,6 @@
 # finger-to-skin
 Takes skin elements, and arranges them per-finger in an osumania skin.
-The supported keycounts are all sensible *keyboard* keycounts, so
+The supported keycounts are all sensible **keyboard** keycounts, so
 - 1K to 10K
 - 13K in 3K7K3K arrangement(which cannot have keybinds changed, but can actually be mapped with notepad editing)
 - 17K in 4K9K4K arrangement(same as above)
@@ -9,7 +9,7 @@ The supported keycounts are all sensible *keyboard* keycounts, so
 This script doesn't generate anything for controller-oriented keycounts like 12K(10K2S), mainly because I don't play controller games like BMS anymore, but also because scratching support is buggy in stable and non-existent in lazer(which I use).
 
 # TODO:
+- center playfield(depends on me finding a mania skinning guide that HASN'T been replaced years ago by a link to the skinship circlejerk website that has ZERO information about mania skinning)
 - soundsphere support
 - togglable advanced mode where you choose every image(right now same image is used for note, LN head, LN body and LN tail)
-- support for key images
-- autogenerating other parts of skin.ini like column lines
+- eventually just generating the whole skin.ini
