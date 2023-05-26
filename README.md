@@ -1,4 +1,7 @@
 # finger-to-skin
+
+DEVELOPEMENT HALTED DUE TO LAZER BEING ANNOYING
+
 Takes skin elements, arranges them per-finger, and generates an osumania skin.
 The supported keycounts are all sensible **keyboard** keycounts, so
 - 1K to 10K
@@ -13,7 +16,7 @@ Also keep in mind that barlines cannot be hidden in lazer *by design*(see https:
 
 # TODO:
 I want to eventually just generate the whole skin.ini
-- figure out JudgementLine, NoteBodyStyle and all the non-mania specific stuff
+- all the non-mania specific stuff
 - key images
 - togglable advanced mode where you choose every image(right now same image is used for note, LN head, LN body and LN tail)
 
