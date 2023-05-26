@@ -9,7 +9,7 @@ The supported keycounts are all sensible **keyboard** keycounts, so
 This script doesn't generate anything for controller-oriented keycounts like 12K(10K2S), mainly because I don't play controller games like BMS anymore, but also because scratching support is buggy in stable and non-existent in lazer(which I use).
 
 # TODO:
-- center playfield(depends on me finding a mania skinning guide that HASN'T been replaced years ago by a link to the skinship circlejerk website that has ZERO information about mania skinning)
+- center playfield(depends on me finding a mania skinning guide that HASN'T been replaced years ago by a link to the skinship website that has ZERO information about mania skinning)
 - figure out LightPosition, BarlineHeight, JudgementLine and NoteBodyStyle
 - key images
 - soundsphere support
